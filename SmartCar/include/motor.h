@@ -10,10 +10,10 @@ extern void left_motor_reverse(uint32_t speed);
 extern void right_motor_reverse(uint32_t speed);
 extern void left_motor_stop();
 extern void right_motor_stop();
-extern void motor_forward(uint32_t speed);
-extern void motor_reverse(uint32_t speed);
-extern void motor_turn_left(uint32_t speed);
-extern void motor_turn_right(uint32_t speed);
-extern void motor_stop(void);
+extern void car_forward(uint32_t speed);
+extern void car_reverse(uint32_t speed);
+extern void car_turn_left(uint32_t speed);
+extern void car_turn_right(uint32_t speed);
+extern void car_stop(void);
 
 #endif

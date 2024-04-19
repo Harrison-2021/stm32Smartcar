@@ -25,13 +25,14 @@ stm32smartcar/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  ..\Core\Inc\tim.h ..\Core\Inc\main.h ..\Core\Inc\usart.h \
-  ..\Core\Inc\gpio.h ..\SmartCar\include\smartcar.h \
+  ..\Core\Inc\spi.h ..\Core\Inc\main.h ..\Core\Inc\tim.h \
+  ..\Core\Inc\usart.h ..\Core\Inc\gpio.h ..\SmartCar\include\smartcar.h \
   ..\SmartCar\include\led.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   ..\SmartCar\include\my_uart.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  ..\SmartCar\include\motor.h
+  ..\SmartCar\include\motor.h ..\SmartCar\include\ps2.h

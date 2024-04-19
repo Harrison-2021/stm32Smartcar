@@ -84,27 +84,27 @@ void right_motor_stop() {
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET);
 }
 
-void motor_forward(uint32_t speed) {
+void car_forward(uint32_t speed) {
     left_motor_forward(speed);
     right_motor_forward(speed);
 }
 
-void motor_reverse(uint32_t speed) { 
+void car_reverse(uint32_t speed) { 
     left_motor_reverse(speed);
     right_motor_reverse(speed);
 }
 
-void motor_turn_left(uint32_t speed) {
+void car_turn_left(uint32_t speed) {
     left_motor_reverse(speed);
     right_motor_forward(speed);
 }
 
-void motor_turn_right(uint32_t speed) {
+void car_turn_right(uint32_t speed) {
     right_motor_reverse(speed);
     left_motor_forward(speed);
 }
 
-void motor_stop() {
+void car_stop() {
     left_motor_stop();
     right_motor_stop();
 }
@@ -113,24 +113,24 @@ void motor_stop() {
 void motor_test() {
     int i;
     for(i = 1; i < 10; i++) {
-        motor_forward(i*100);
+        car_forward(i*100);
         HAL_Delay(2 * 1000);
-        motor_stop();
+        car_stop();
         HAL_Delay(2 * 1000);
     
-        motor_reverse(i*100);
+        car_reverse(i*100);
         HAL_Delay(2 * 1000);
-        motor_stop();
-        HAL_Delay(2 * 1000);
-
-        motor_turn_left(i*100);
-        HAL_Delay(2 * 1000);
-        motor_stop();
+        car_stop();
         HAL_Delay(2 * 1000);
 
-        motor_turn_right(i*100);
+        car_turn_left(i*100);
         HAL_Delay(2 * 1000);
-        motor_stop();
+        car_stop();
+        HAL_Delay(2 * 1000);
+
+        car_turn_right(i*100);
+        HAL_Delay(2 * 1000);
+        car_stop();
         HAL_Delay(2 * 1000);
     }
 }

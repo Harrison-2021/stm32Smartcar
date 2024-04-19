@@ -4,5 +4,7 @@
 #include "led.h"
 #include "my_uart.h"
 #include "motor.h"
+#include "ps2.h"
+
 
 #endif
