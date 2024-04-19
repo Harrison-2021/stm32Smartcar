@@ -28,6 +28,7 @@
 "stm32smartcar\uart.o"
 "stm32smartcar\motor.o"
 "stm32smartcar\ps2.o"
+"stm32smartcar\bluetooth.o"
 --library_type=microlib --strict --scatter "stm32Smartcar\stm32Smartcar.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

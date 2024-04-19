@@ -803,6 +803,11 @@
               <FileType>1</FileType>
               <FilePath>..\SmartCar\ps2\ps2.c</FilePath>
             </File>
+            <File>
+              <FileName>bluetooth.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SmartCar\bluetooth\bluetooth.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

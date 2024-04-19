@@ -4,6 +4,7 @@
 #include "usart.h"
 #include "string.h"
 #include "stdio.h"
+#include "bluetooth.h"
 
 #define RX_BUFFER_SIZE 1024
 

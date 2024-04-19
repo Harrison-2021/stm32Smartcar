@@ -3,7 +3,8 @@
         "gpio.h": "c",
         "compare": "c",
         "ps2.h": "c",
-        "motor.h": "c"
+        "motor.h": "c",
+        "my_uart.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

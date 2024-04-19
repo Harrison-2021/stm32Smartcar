@@ -90,6 +90,8 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM3_Init();
   MX_SPI2_Init();
+  MX_USART2_UART_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -97,12 +99,13 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   // led_on_off();
-  //uart_test();
+  // uart_test();
   // motor_test();
-  ps2_test();
+  // ps2_test();
+  bluetooth_test();
   while (1)
   {
-	  key_scan(); // 按键要一直扫描
+	//key_scan(); // 按键要一直扫描
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -1,5 +1,8 @@
-stm32smartcar/uart.o: ..\SmartCar\uart\uart.c \
-  ..\SmartCar\include\my_uart.h ..\Core\Inc\usart.h ..\Core\Inc\main.h \
+stm32smartcar/bluetooth.o: ..\SmartCar\bluetooth\bluetooth.c \
+  ..\SmartCar\include\bluetooth.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  ..\SmartCar\include\motor.h ..\Core\Inc\tim.h ..\Core\Inc\main.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
   ..\Core\Inc\stm32f1xx_hal_conf.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
@@ -30,7 +33,5 @@ stm32smartcar/uart.o: ..\SmartCar\uart\uart.c \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  ..\SmartCar\include\bluetooth.h ..\SmartCar\include\motor.h \
-  ..\Core\Inc\tim.h ..\SmartCar\include\my_uart.h
+  ..\SmartCar\include\my_uart.h ..\Core\Inc\usart.h \
+  ..\SmartCar\include\bluetooth.h

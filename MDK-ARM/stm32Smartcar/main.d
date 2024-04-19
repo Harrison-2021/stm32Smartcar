@@ -35,4 +35,5 @@ stm32smartcar/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   ..\SmartCar\include\my_uart.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  ..\SmartCar\include\motor.h ..\SmartCar\include\ps2.h
+  ..\SmartCar\include\bluetooth.h ..\SmartCar\include\motor.h \
+  ..\SmartCar\include\ps2.h
