@@ -4,7 +4,10 @@
         "compare": "c",
         "ps2.h": "c",
         "motor.h": "c",
-        "my_uart.h": "c"
+        "my_uart.h": "c",
+        "p2p.h": "c",
+        "bluetooth.h": "c",
+        "tm.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
