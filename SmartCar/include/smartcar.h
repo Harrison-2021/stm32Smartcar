@@ -7,5 +7,6 @@
 #include "ps2.h"
 #include "bluetooth.h"
 #include "tm.h"
+#include "sht31.h"
 
 #endif

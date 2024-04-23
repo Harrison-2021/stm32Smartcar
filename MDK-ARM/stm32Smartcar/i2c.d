@@ -1,4 +1,4 @@
-stm32smartcar/stm32f1xx_hal_msp.o: ..\Core\Src\stm32f1xx_hal_msp.c \
+stm32smartcar/i2c.o: ..\Core\Src\i2c.c ..\Core\Inc\i2c.h \
   ..\Core\Inc\main.h ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
   ..\Core\Inc\stm32f1xx_hal_conf.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \

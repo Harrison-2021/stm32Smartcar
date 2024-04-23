@@ -57,7 +57,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size) {
                                uart2_rx_buf[i]);
 		}
         #endif // UART_DEBUG
-        bluetooth_car_control(uart2_rx_buf, Size);
+        //bluetooth_car_control(uart2_rx_buf, Size);
         HAL_UART_Transmit_IT(&huart1, uart2_rx_buf, Size);
         HAL_UARTEx_ReceiveToIdle_IT(&huart2, uart2_rx_buf, sizeof(uart2_rx_buf));
     }

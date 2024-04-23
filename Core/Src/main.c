@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "rtc.h"
 #include "spi.h"
 #include "tim.h"
@@ -94,6 +95,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM4_Init();
   MX_RTC_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -105,7 +107,8 @@ int main(void)
   // motor_test();
   // ps2_test();
   //bluetooth_test();
-  tm1637_test();
+  //tm1637_test();
+  sht31_test();
   while (1)
   {
 	//key_scan(); // 按键要一直扫描
