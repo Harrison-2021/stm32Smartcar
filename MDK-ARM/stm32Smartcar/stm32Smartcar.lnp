@@ -36,6 +36,8 @@
 "stm32smartcar\bluetooth.o"
 "stm32smartcar\tm1637.o"
 "stm32smartcar\sht31.o"
+"stm32smartcar\relay.o"
+"stm32smartcar\pid.o"
 --library_type=microlib --strict --scatter "stm32Smartcar\stm32Smartcar.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -7,7 +7,9 @@
         "my_uart.h": "c",
         "p2p.h": "c",
         "bluetooth.h": "c",
-        "tm.h": "c"
+        "tm.h": "c",
+        "relay.h": "c",
+        "pid.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

@@ -8,5 +8,7 @@
 #include "bluetooth.h"
 #include "tm.h"
 #include "sht31.h"
+#include "relay.h"
+#include "pid.h"
 
 #endif

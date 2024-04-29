@@ -1098,6 +1098,16 @@
               <FileType>1</FileType>
               <FilePath>..\SmartCar\sht31\sht31.c</FilePath>
             </File>
+            <File>
+              <FileName>relay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SmartCar\relay\relay.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SmartCar\pid\pid.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
