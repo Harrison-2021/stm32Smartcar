@@ -111,7 +111,7 @@ int main(void)
   //sht31_test();
   //__HAL_AFIO_REMAP_SWJ_NOJTAG(); // 禁用JTAG引脚
   //relay_test();
-  pid_test();  
+  //pid_test();  
   while (1)
   {
 	//key_scan(); // 按键要一直扫描
